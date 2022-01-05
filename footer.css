@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.cons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.column h3 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.column h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.column .foot-info li {
+    margin-bottom: 10px;
+}
+.column .foot-info li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.column .foot-info li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+.social li a {
+   display: block;
+}
+.social li {
+   display: flex;
+}
+.social li h4 {
+   width: 40%;
+   padding-top: 10px;
+   
+}
+.column .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 5px 0;
+    text-align: center;
+
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    
+}
+.column .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.social-links .social li h4 {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 300;
+    text-decoration: none;
+}
